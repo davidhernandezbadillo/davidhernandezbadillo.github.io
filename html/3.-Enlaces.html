@@ -1,0 +1,157 @@
+<html>
+        <!-- Elaborado por: Hernández Badillo David
+    Fecha: 10-02-2025
+-->
+    <head>
+    <title>Enlaces</title>
+        <style>type="text/css"
+            @import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Quicksand:wght@300..700&display=swap');
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            header,nav,main,footer{
+                width: auto;
+                background-color: #3D8D7A;
+                color: #FBFFE4;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 20px;
+            }
+            header{
+                height: 100px;
+                font-size: 32px;
+            }
+            nav{
+                height: 60px;
+                background-color: #B3D8A8;
+                color: #77aca2 ;
+            }
+            main{
+                height: auto;
+                background-color: #f4e9cd;
+            }
+            footer{
+                height: 100px;
+                font-size: 18px;
+            }
+            section{
+                width: 800px;
+                height: 200px;
+                background-color: #A3D1C6;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+            h2{
+                color: #3D8D7A;
+                margin-bottom: 30px;
+            }
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                width: 80px;
+                list-style-type: none;
+                display: inline-block;
+                background-color: #FBFFE4;
+                padding: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
+                text-align: center;
+            }
+            header,footer{
+                text-align: center;
+            }
+            section p{
+                font-family: 'Quicksand', sans-serif;
+            }
+            h1{
+                font-family: 'Cantata One', serif;
+            }
+            main nav{
+                width: 800px;
+            }
+            section a:link{
+                color: #3D8D7A;
+            }
+            section a:visited{
+                color: darkgreen;
+            }
+            section a:visited, section a:link{
+                text-decoration: none;
+            }
+            section a:hover{
+                color: yellow;
+                font-weight: bolder;
+                font-size: 18px;
+            }
+            main nav a{
+                text-decoration: none;
+            }
+            main nav a:link,main nav a:visited{
+                color: firebrick;
+            }
+            main nav a:hover{
+                color: chartreuse;
+            }
+            main nav a:link,nav ul a:visited{
+                color: #3D8D7A;
+                text-decoration: none;
+            }
+            nav ul li:hover{
+                background-color: #A3D1C6;
+                width: 90px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>ENLACES</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="1.-Formatos%20de%20texto.html">Formatos</a></li>
+                <li><a href="2.-Listas%20en%20HTML.html">Listas</a></li>
+                <li><a href="3.-Enlaces.html">Enlaces</a></li>
+                <li><a href="4.-Tablas.html">Tablas</a></li>
+                <li><a href="6.-Imagenes.html">Imagenes</a></li>
+                <li><a href="5.-Audios.html">Audios</a></li>
+                <li><a href="7.-Videos.html">Videos</a></li>
+                <li><a href="8.-Formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="e_externo"> Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet vulputate elit. Nunc a libero nec nisi tempor interdum. <a href="https://www.buap.mx/" target="_blank"> Benemerita Universidad Autonoma de Puebla</a> Etiam sodales rhoncus nisi suscipit consectetur. <a href="https://www.udg.mx/es" target="_blank"> Universidad de Guadalajara</a>Sed lacinia erat eget.</p>
+            </section>
+            <section>
+                 <h2 id="e_interno">Enlaces al mismo sitio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor commodo leo, non sodales tellus.<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB4nT6g3GWd9vUmIbJLtfohJGj26ynkC4Anw&s/"> Facebook Diana</a> Quisque dui magna, faucibus gravida mi sit amet, lacinia mattis tortor. Pellentesque in varius dolor. <a href="2.-Listas%20en%20HTML.html"> Listas en HTML</a> In fermentum aliquam ornare. Ut vestibulum blandit neque, eget mollis nulla varius at. Praesent ac ipsum at mauris interdum pretium.</p>
+            </section>
+            <section>
+                <h2 id="e_archivo">Enlaces a archivo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu euismod nunc, in dictum velit. <a href="../pdf/3.1-contratodepresatciondeservicios.pdf"> Contrato de prestacion de servicios</a>Proin porta finibus sem sit amet ultrices. Nunc varius mattis justo sed facilisis. Maecenas sem. Descarga el libro <a href="../pdf/3.1-contratodepresatciondeservicios.pdf" download>Aqui</a></p>
+            </section>
+            <section>
+                <h2 id="e_email">Enlace a correo electronico</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id auctor orci. Maecenas efficitur sodales felis at laoreet. Integer ornare <a href="mailto:david.hernadezba@alumno.buap.mx">David Hernandez Badillo</a></p>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#e_externo">Externos</a></li>
+                    <li><a href="#e_interno">Internos</a></li>
+                    <li><a href="#e_archivo">Archivo</a></li>
+                    <li><a href="#e_email">Email</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h6>Elaborado por David Hernández Badillo</h6>
+        </footer>
+    </body>
+</html>
